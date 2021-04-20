@@ -20,9 +20,7 @@ module.exports = {
     hotOnly: false,
     proxy: {
       '/api': {
-        // target: "http://cms.dyreader.cn/",
-        // target: 'http://test-cms.dyreader.cn/',
-        target: 'http://117.50.9.95/',
+        target: 'http://127.0.0.1/',
         //  ws: true, // if you want to proxy websockets
         changeOrigin: true,
         pathRewrite: {
